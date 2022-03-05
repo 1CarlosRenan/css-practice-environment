@@ -1,28 +1,48 @@
-.nowrap {
-  flex-wrap: nowrap;
+.flex-start {
+  justify-content: flex-start;
 }
-.wrap {
-  flex-wrap: wrap;
+
+.flex-end {
+  justify-content: flex-end;
 }
-.wrap-reverse {
-  flex-wrap: wrap-reverse;
+
+.center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
 }
 
 /* Flex Container */
 .container {
-  max-width: 360px;
+  max-width: 420px;
   margin: 0 auto;
   display: flex;
   border: 1px solid #ccc;
 }
+
+.column {
+  min-height: 200px;
+  flex-direction: column;
+}
+
 /* Flex Item */
 .item {
-  /* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
-  flex: 1;
   margin: 5px;
+  padding: 0 10px;
   background: tomato;
   text-align: center;
   font-size: 1.5em;
+}
+
+/* Indica que o conteúdo deve se expandir */
+.flex {
+  flex: 1;
 }
 
 h1 {
