@@ -1,27 +1,20 @@
-<h3>Link da página do desafio: <a href="https://osprogramadores.com/desafios/d08/#pontua%C3%A7%C3%A3o" target="_blank">#8 Frações Simples - Os Programadores</a></h3>
-
 <div>
-<h1 id="frações-simples">Frações simples</h1>
+<h1 id="frações-simples">Sequência de Fibonacci</h1>
 <h2 id="descrição">Descrição</h2>
-<p>Escreva um programa que leia um arquivo texto contendo uma lista de frações em
-ASCII (uma por linha) e produza na saída a versão simplificada de cada fração.
-Números simples assumem denominador 1 (apenas imprima o número). Em caso de
-erros na entrada (como divisão por zero), imprima “ERR” em maíusculas.</p>
+<p>A sequência de Fibonacci é basicamente uma sequência começando em 0, onde o número próximo número é sempre a soma dos dois números anteriores. Crie uma função que calcule o N-ésimo números da sequencia de Fibonacci. Ela deverá receber um número de argumento, que indica a quantidade de números que gostariamos de calcular. A função deverá retornar um array com os N números calculados.</p>
 <p>Por exemplo, data a entrada abaixo:</p>
-<pre><code>14/3
-3/8
-4/8
-4/3
-5
-10/0
+<pre><code>1
+2
+25
+0
+'string'
 </code></pre>
 <p>A seguinte saída seria produzida:</p>
-<pre>4 2/3
-3/8
-1/2
-1 1/3
-5
-ERR
+<pre>[0]
+[1, 2]
+[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368]
+Insira um número maior do que 0.
+Insira um número maior do que 0.
 </code></pre>
 <h2 id="dificuldade">Dificuldade</a></h2>
 <p>Fácil</p>

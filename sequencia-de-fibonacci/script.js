@@ -5,7 +5,7 @@ function sequenceFibonacci(n) {
     const aux = arrLength > 0 || ((typeof arrLength) === 'Number');
 
     if (!aux) {
-        return console.log('Insira um número maior que 0.');
+        return console.log('Insira um número maior do que 0.');
     }
     else if (arrLength === 1) {
         return arrSequence.pop();
@@ -25,5 +25,5 @@ function sequenceFibonacci(n) {
     }
 }
 
-const number = 36;
+const number = 25;
 console.log(sequenceFibonacci(number))
