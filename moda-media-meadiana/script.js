@@ -26,8 +26,7 @@ function calcMediana(arr) {
 }
 
 function calcMedia(arr) {
-  let media = 0;
-  media = arr.reduce((acumulador, atual) => acumulador + atual, 0) / arr.length;
+  let media = arr.reduce((acumulador, atual) => acumulador + atual, 0) / arr.length;
 
   return media;
 }
