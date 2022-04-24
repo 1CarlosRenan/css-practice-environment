@@ -56,5 +56,5 @@ function calcModa(arr) {
   return moda;
 }
 
-const arrNumeros = [1, 2, 8, 8, 3, 4, 5, 5, 7, 7];
+const arrNumeros = [1, 1, 4, 8, 9, 9, 10, 7, 7];
 console.log(calcular(arrNumeros));
