@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+}
+
+.item {
+  flex-grow: 1;
+  height: 100px;
+  background-color: thistle;
+}
+
+.item + .item {
+  margin-left: 2%;
+}
+
+.container2 {
+  display: flex;
+  margin-top: 10px;
+}
+
+.item2 {
+  flex-grow: 1;
+  height: 100px;
+  background-color: thistle;
+}
+
+.item2.meio {
+  flex-grow: 2;
+  background-color: lightblue;
+}
+
+.item2 + .item2 {
+  margin-left: 2%;
+}
