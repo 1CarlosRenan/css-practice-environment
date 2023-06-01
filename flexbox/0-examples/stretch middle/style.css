@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+}
+
+.item {
+  height: 100px;
+  width: 100px; /* A fixed width as the default */
+  background-color: thistle;
+}
+
+.item-center { 
+  flex-grow: 1; /* Set the middle element to grow and stretch */
+  background-color: lightblue;
+}
+
+.item + .item { 
+  margin-left: 2%; 
+}
