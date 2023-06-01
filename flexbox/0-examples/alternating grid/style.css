@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  width: 48%;
+  height: 100px;
+  margin-bottom: 2%;
+  background-color: thistle;
+}
+
+.item:nth-child(3n) {
+  width: 100%;
+}
