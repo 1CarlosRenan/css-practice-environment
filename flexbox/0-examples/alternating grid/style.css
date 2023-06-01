@@ -13,4 +13,5 @@
 
 .item:nth-child(3n) {
   width: 100%;
+  background-color: lightblue;
 }
